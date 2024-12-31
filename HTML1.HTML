@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example</title>
+    <style>
+        div.class{
+            border: 1px solid;
+            box-shadow: 0px 3px 9px  rgb(64, 64, 65);
+            border-radius: 10px;
+            width: 500px;
+            margin-left:40px ;
+            height: auto;
+            animation: border ;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-direction:alternate;
+            border-top: 5px solid;
+            
+
+            
+        }
+        .bor{
+            border: 2px solid;
+            width: 500px;
+            margin-left:40px ;
+            border-radius: 30px;
+            animation-name:border ;
+            animation-duration:alternate;
+            anima
+
+        }
+
+        
+        @keyframes  border {
+           to{transform: rotatey(20deg);}
+
+            
+        }
+        li{
+            list-style-type: none;
+            padding: px;
+            text-align: center;
+        }
+        a{
+            list-style-type: none;
+            text-decoration: none;
+            color: white;
+        
+            
+            
+
+        }
+        input{
+            text-align: center;
+            padding-top: 5px;
+            margin: 10px;
+        
+        }
+        .input {
+            text-align: center;
+            padding-top: 50px;
+            
+        
+        }
+        p.x{
+            border: 1px solid;
+        }
+        li{
+            padding: 5px;
+            
+            width: 300px;
+            text-align: center;
+            
+            
+        }
+        .login{
+            border: 1px solid;
+            
+            padding: auto;
+            border-color: blue ;
+            background:blue;
+        }
+        a:hover{
+            background-color: #000;
+            font-size:10px;
+        }
+        p:hover{
+            background-color: red;
+            animation: border 4s linear  infinite;
+            transform: rotate(360deg);
+        }
+        .forgot{
+            background: blue;
+            
+        }
+        ul{
+            padding-left: 100px;
+        }
+        p{
+            color: rgb(226, 226, 226);
+            background:rgb(8, 78, 230);
+            border: 1px solid;
+            padding: 10px;
+            border-radius: 30px ;
+        }
+    </style>
+</head>
+<body>
+<div class="bor"></div>
+<div class="class">
+     <div class="input">
+        <input  type="text"  placeholder="Email or phone ">
+        <br><br>
+        <input type="text" placeholder="password"><br>
+        <br>
+     </div>
+        <ul>
+            <li><a href="#login" class="login"><p>log in</p> </a></li>
+            <li><a class="forgot" href="#"><p>forgot number</p></a></li>
+        </ul>
+        
+
+</div>
+</body>
+</html>
